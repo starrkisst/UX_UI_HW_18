@@ -22,7 +22,7 @@ vertical-align: top;
 }
 
 nav {
-    outline:3px solid red;
+    /*outline:3px solid red;*/
       display:inline-block;
       height: 88px;
     width: 100%;
@@ -31,7 +31,7 @@ nav {
 }
 
 .logo { 
-    outline:3px solid red;
+    /*outline:3px solid red;*/
    
     /* width: 23%; */
     height: 98%;
@@ -42,7 +42,7 @@ nav {
 
 
 .navbar {
-    outline:3px solid red;
+    /*outline:3px solid red;*/
     display: inline-block;
     width: 99%%;
     /* padding: 1%; */
@@ -69,7 +69,7 @@ align-items: center;
 
 
 
-h3 {
+.h3 {
 
 font-family: Museo Slab;
 font-style: normal;
@@ -141,7 +141,7 @@ text-align: center;
 
 .heroImg {
     display: flex;
-    outline:3px solid red;
+    /*outline:3px solid red;*/
     /* display: inline-block; */
     height: 500px;
     padding: 25px 25px;
@@ -155,7 +155,7 @@ text-align: center;
 .content {
   display: inline-block;
    width: 49%;
-   outline:3px solid red;
+   /*outline:3px solid red;*/
    font-family: Museo Sans;
      font-style: normal;
     font-weight: normal;
@@ -171,7 +171,7 @@ padding: 24px;
 }
 
 .aboutIntro {
-outline:3px solid red;
+/*outline:3px solid red;*/
 display: flex;
 position: absolute;
 width: 692px;
@@ -185,7 +185,7 @@ top: 175px;
 
 footer {
    
-    outline:3px solid red;
+    /*outline:3px solid red;*/
     background-color: #373738;
     padding-left: 25%;
     padding-right: 25%;
@@ -194,7 +194,7 @@ footer {
    
 footer ul {
    
-    outline:3px solid red;
+    /*outline:3px solid red;*/
     width: 100%;
     display: inline-block;
     list-style: none;
@@ -262,17 +262,22 @@ footer ul li {
 
 
 .mySkills {
-    outline:3px solid red;
+   
+    
+    /*outline:3px solid red;*/
     display: flex;
+    padding: 32px;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    
 
         /* position: absolute; */
         /* width:100%; */
           
         /* position: absolute; */
         
-        height: 775px;
+        /*height: 775px;*/
         background-color: #FFFEF9;
         }
           
@@ -296,7 +301,7 @@ footer ul li {
         top: 490px;
         }
         
-        h3 {
+        .h3 {
         font-family: Museo Slab;
         font-style: normal;
         font-weight: bold;
@@ -319,31 +324,22 @@ footer ul li {
         top: 132px; */
         }
         
-        .about{
+        .mySkills .about{
         flex: 3;
         }
         
-        .graphicDesign {
-            width: 33%;
-        }
         
-        .UXUI {
-            width: 33%;
-        }
-        
-        .software{
-            width: 33%;
-        }
+           
         
         
-        p {
+    .p {
         font-family: Museo Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 21px;
         line-height: 180%;
         /* or 38px */
-        display: flex;
+
         align-items: center;
         letter-spacing: -0.02em;
         
@@ -353,18 +349,6 @@ footer ul li {
         
        
 
-        h3 {
-
-            font-family: Museo Slab;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 32px;
-            line-height: 48px;
-            /* identical to box height, or 150% */
-            
-            display: flex;
-            align-items: center;
-            }
 
 button {
                 
@@ -456,7 +440,7 @@ background: #C4C4C4; */
 
 
             
-}
+
 
 
 
